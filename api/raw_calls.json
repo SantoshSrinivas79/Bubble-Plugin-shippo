@@ -1,0 +1,36 @@
+{
+    "calls": {
+        "AAE": {
+            "doc_link": "https://goshippo.com/docs/reference#tracks",
+            "initialized": true,
+            "method": "post",
+            "name": "Tracking Status",
+            "params": {
+                "AAF": {
+                    "key": "carrier",
+                    "private": true,
+                    "value": "shippo"
+                },
+                "AAG": {
+                    "key": "tracking_number",
+                    "private": true,
+                    "value": "shippo_transit"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1534793718865x843127902165794800.plugin_api.AAE",
+            "types": "{\"plugin_api.AAE\":{\"caption\":\"Tracking Statu\",\"fields\":{\"_p_carrier\":{\"ret_value\":\"text\",\"caption\":\"carrier\",\"path\":[\"carrier\"]},\"_p_tracking_number\":{\"ret_value\":\"text\",\"caption\":\"tracking_number\",\"path\":[\"tracking_number\"]},\"_p_address_from.city\":{\"ret_value\":\"geographic_address\",\"caption\":\"address_from city\",\"path\":[\"address_from\",\"city\"]},\"_p_address_from.state\":{\"ret_value\":\"text\",\"caption\":\"address_from state\",\"path\":[\"address_from\",\"state\"]},\"_p_address_from.zip\":{\"ret_value\":\"text\",\"caption\":\"address_from zip\",\"path\":[\"address_from\",\"zip\"]},\"_p_address_from.country\":{\"ret_value\":\"text\",\"caption\":\"address_from country\",\"path\":[\"address_from\",\"country\"]},\"_p_address_to.city\":{\"ret_value\":\"geographic_address\",\"caption\":\"address_to city\",\"path\":[\"address_to\",\"city\"]},\"_p_address_to.state\":{\"ret_value\":\"text\",\"caption\":\"address_to state\",\"path\":[\"address_to\",\"state\"]},\"_p_address_to.zip\":{\"ret_value\":\"text\",\"caption\":\"address_to zip\",\"path\":[\"address_to\",\"zip\"]},\"_p_address_to.country\":{\"ret_value\":\"text\",\"caption\":\"address_to country\",\"path\":[\"address_to\",\"country\"]},\"_p_eta\":{\"ret_value\":\"date\",\"caption\":\"eta\",\"path\":[\"eta\"]},\"_p_original_eta\":{\"ret_value\":\"date\",\"caption\":\"original_eta\",\"path\":[\"original_eta\"]},\"_p_servicelevel.token\":{\"ret_value\":\"text\",\"caption\":\"servicelevel token\",\"path\":[\"servicelevel\",\"token\"]},\"_p_servicelevel.name\":{\"ret_value\":\"text\",\"caption\":\"servicelevel name\",\"path\":[\"servicelevel\",\"name\"]},\"_p_metadata\":{\"ret_value\":\"text\",\"caption\":\"metadata\",\"path\":[\"metadata\"]},\"_p_tracking_status.object_created\":{\"ret_value\":\"date\",\"caption\":\"tracking_status object_created\",\"path\":[\"tracking_status\",\"object_created\"]},\"_p_tracking_status.object_updated\":{\"ret_value\":\"text\",\"caption\":\"tracking_status object_updated\",\"path\":[\"tracking_status\",\"object_updated\"]},\"_p_tracking_status.object_id\":{\"ret_value\":\"text\",\"caption\":\"tracking_status object_id\",\"path\":[\"tracking_status\",\"object_id\"]},\"_p_tracking_status.status\":{\"ret_value\":\"text\",\"caption\":\"tracking_status status\",\"path\":[\"tracking_status\",\"status\"]},\"_p_tracking_status.status_details\":{\"ret_value\":\"text\",\"caption\":\"tracking_status status_details\",\"path\":[\"tracking_status\",\"status_details\"]},\"_p_tracking_status.status_date\":{\"ret_value\":\"date\",\"caption\":\"tracking_status status_date\",\"path\":[\"tracking_status\",\"status_date\"]},\"_p_tracking_status.substatus\":{\"ret_value\":\"text\",\"caption\":\"tracking_status substatus\",\"path\":[\"tracking_status\",\"substatus\"]},\"_p_tracking_status.location.city\":{\"ret_value\":\"geographic_address\",\"caption\":\"tracking_status location city\",\"path\":[\"tracking_status\",\"location\",\"city\"]},\"_p_tracking_status.location.state\":{\"ret_value\":\"text\",\"caption\":\"tracking_status location state\",\"path\":[\"tracking_status\",\"location\",\"state\"]},\"_p_tracking_status.location.zip\":{\"ret_value\":\"text\",\"caption\":\"tracking_status location zip\",\"path\":[\"tracking_status\",\"location\",\"zip\"]},\"_p_tracking_status.location.country\":{\"ret_value\":\"text\",\"caption\":\"tracking_status location country\",\"path\":[\"tracking_status\",\"location\",\"country\"]},\"_p_tracking_history\":{\"ret_value\":\"list.api.1534793718865x843127902165794800.plugin_api.AAE.tracking_history\",\"caption\":\"tracking_history\",\"path\":[\"tracking_history\"]},\"_p_transaction\":{\"ret_value\":\"text\",\"caption\":\"transaction\",\"path\":[\"transaction\"]},\"_p_test\":{\"ret_value\":\"boolean\",\"caption\":\"test\",\"path\":[\"test\"]}}},\"plugin_api.AAE.tracking_history\":{\"caption\":\"Tracking Status tracking_history\",\"fields\":{\"_p_object_created\":{\"ret_value\":\"date\",\"caption\":\"object_created\",\"path\":[\"object_created\"]},\"_p_object_updated\":{\"ret_value\":\"text\",\"caption\":\"object_updated\",\"path\":[\"object_updated\"]},\"_p_object_id\":{\"ret_value\":\"text\",\"caption\":\"object_id\",\"path\":[\"object_id\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_status_details\":{\"ret_value\":\"text\",\"caption\":\"status_details\",\"path\":[\"status_details\"]},\"_p_status_date\":{\"ret_value\":\"date\",\"caption\":\"status_date\",\"path\":[\"status_date\"]},\"_p_substatus\":{\"ret_value\":\"text\",\"caption\":\"substatus\",\"path\":[\"substatus\"]},\"_p_location.city\":{\"ret_value\":\"geographic_address\",\"caption\":\"location city\",\"path\":[\"location\",\"city\"]},\"_p_location.state\":{\"ret_value\":\"text\",\"caption\":\"location state\",\"path\":[\"location\",\"state\"]},\"_p_location.zip\":{\"ret_value\":\"text\",\"caption\":\"location zip\",\"path\":[\"location\",\"zip\"]},\"_p_location.country\":{\"ret_value\":\"text\",\"caption\":\"location country\",\"path\":[\"location\",\"country\"]}}}}",
+            "url": "https://api.goshippo.com/tracks/"
+        }
+    },
+    "human": "shippo API",
+    "shared_headers": {
+        "AAC": {
+            "doc": "https://goshippo.com/docs/auth/",
+            "key": "Authorization",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "location",
+        "1": "data (things)",
+        "2": "customer support",
+        "3": "ecommerce"
+    },
+    "demo_page": "https://i2b-plugins-demo.bubbleapps.io/shippo-plugin",
+    "description": "Track any shipment using shippo API. Using courier name and tracking number. ",
+    "image": "//s3.amazonaws.com/appforest_uf/f1534794015906x868411977775395000/Shippo-logo-300x300.png",
+    "instructions": "1- Add your API key like this \"\nShippoToken shippo_test_1eb074bf6dd8aead2928ada66798044ecf21387a \"\n\n2- Check couriers list https://goshippo.com/docs/reference#carriers\nyou can add a static carrier or dynamic using a drop-down menu. \n\n3- Use the tracking API as an action in your workflow.\n",
+    "license": "open_source",
+    "link": "https://goshippo.com/",
+    "name": "shippo",
+    "plugin_instructions": "1- Add your API key like this \"\nShippoToken shippo_test_1eb074bf6dd8aead2928ada66798044ecf21387a \"\n\n2- Check couriers list https://goshippo.com/docs/reference#carriers\nyou can add a static carrier or dynamic using a drop-down menu. \n\n3- Use the tracking API as an action in your workflow.\n"
+}
